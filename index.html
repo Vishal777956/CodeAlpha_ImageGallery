@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Wonders Of Nature</h1>
+  </header>
+
+  <main>
+    <section id="gallery-container" class="gallery-container">
+      <figure class="gallery-item" data-index="0">
+        <img src="images/1.jpg" alt="Nature Photo 1" />
+        <figcaption>Deep Forest</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="1">
+        <img src="images/2.jpg" alt="Nature Photo 2" />
+        <figcaption>Sunny Forest</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="2">
+        <img src="images/3.jpg" alt="Architecture Photo 1" />
+        <figcaption>Mountains Reflection</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="3">
+        <img src="images/4.jpg" alt="Architecture Photo 2" />
+        <figcaption>Sunset At Sea Shore</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="4">
+        <img src="images/5.jpg" alt="Nature Photo 3" />
+        <figcaption>Clear Dark Night</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="5">
+        <img src="images/6.jpg" alt="Architecture Photo 3" />
+        <figcaption>City Lights</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="5">
+        <img src="images/7.jpg" alt="Architecture Photo 3" />
+        <figcaption>Calming Cottage</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="5">
+        <img src="images/8.jpg" alt="Architecture Photo 3" />
+        <figcaption>Rolling Hills</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="5">
+        <img src="images/9.jpg" alt="Architecture Photo 3" />
+        <figcaption>Mirror-Mountain View</figcaption>
+      </figure>
+      <figure class="gallery-item" data-index="5">
+        <img src="images/10.jpg" alt="Architecture Photo 3" />
+        <figcaption>Beautiful Flowers</figcaption>
+      </figure>
+      
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <button id="lightbox-close" class="close-btn" aria-label="Close">&times;</button>
+    <button id="prev-btn" class="nav-btn" aria-label="Previous">&#8249;</button>
+    <img id="lightbox-img" src="" alt="Expanded view" />
+    <button id="next-btn" class="nav-btn" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
